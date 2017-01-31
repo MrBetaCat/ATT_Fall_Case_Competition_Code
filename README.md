@@ -30,26 +30,26 @@ Goal of customer insights project is to identify top customer concerns, analyze 
 &ensp;|&ensp;&ensp;&ensp;&ensp;|--------top 100 populated cities in US.txt  
 
 ### Code Notes : 
-1) ATT_LDA.R           : extract customer service topics by LDA method.  
-2) Corr.R              : compute the correlation matrix of different demographics factors.  
-3) Preprocess.R	       : normalize all collected review ratings and prepare the training corpus for sentiment prediction.  
-4) Sentiment.R         : predict sentiment for tweets by Max Entropy and SVM.  
-5) TwitterPublicData.R : fetch Twitter history data by Twitter APIs.  
+1) ATT_LDA.R &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: extract customer service topics by LDA method.     
+2) Corr.R &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: compute the correlation matrix of different demographics factors.   
+3) Preprocess.R &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: normalize all collected review ratings and prepare the training corpus for sentiment prediction.  
+4) Sentiment.R &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: predict sentiment for tweets by Max Entropy and SVM.  
+5) TwitterPublicData.R &ensp;: fetch Twitter history data by Twitter APIs.  
 6) TwitterStreamData.R : fetch Twitter real-time streaming data by Twitter APIs.  
 File “mystopwords.txt” is used for text preprocessing.  
 
-7) fetch_google.py     : fetch Google reviews by Google Search APIs.  
-8) fetch_yelp.py       : fetch part of Yelp reviews by Yelp APIs.  
+7) fetch_google.py &ensp;&ensp;&ensp;&ensp;: fetch Google reviews by Google Search APIs.  
+8) fetch_yelp.py &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: fetch part of Yelp reviews by Yelp APIs.  
 File "top 100 populated cities in US.txt" is used to store geographic information of US top 100 populated cities for fetch_google.py.  
 
 ### Sample Data Notes:
-1)	ATT_dallas_rank_YGF.csv : all overall ranks of AT&T retail stores in Dallas area from 3 main social media platforms (Yelp, Google and Facebook), and other information like zipcode, store address, lat and long.    
-2)	ATT_dallas_reviews.csv : sample review data of AT&T retail stores in Dallas area got from Yelp, Google and Facebook.  
-3)	ATT_US_reviews.csv : sample review data of AT&T retail stores all over US got from Google reviews.  
-4)	Demographic.csv : the demographic information we collected for Dallas area.  
-5)	realtime_twitter.csv : some sample Twitter streaming data.  
+1)	ATT_dallas_rank_YGF.csv &ensp;&ensp;&ensp;&ensp;&ensp;: all overall ranks of AT&T retail stores in Dallas area from 3 main social media platforms (Yelp, Google and Facebook), and other information like zipcode, store address, lat and long.    
+2)	ATT_dallas_reviews.csv &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: sample review data of AT&T retail stores in Dallas area got from Yelp, Google and Facebook.  
+3)	ATT_US_reviews.csv &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: sample review data of AT&T retail stores all over US got from Google reviews.  
+4)	Demographic.csv &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: the demographic information we collected for Dallas area.  
+5)	realtime_twitter.csv &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: some sample Twitter streaming data.  
 6)	TMobileHelp_twitter_users.csv : some sample Twitter data related users.  
-7)	LDA 15 TopicsToTerms.xlsx : LDA-extract customer service topics.  
+7)	LDA 15 TopicsToTerms.xlsx &ensp;&ensp;&ensp;: LDA-extract customer service topics.  
 
 
 ### Limitations and Known Issues:
