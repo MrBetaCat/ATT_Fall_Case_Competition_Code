@@ -14,20 +14,20 @@ Goal of customer insights project is to identify top customer concerns, analyze 
 ### Project Structure:  
 
 /-------R Code   
- |     |--------Sample Data  
- |     |--------ATT_LDA.R  
- |     |--------Corr.R  
- |     |--------Preprocess.R  
- |     |--------Sentiment.R  
- |     |--------TwitterPublicData.R  
- |     |--------TwitterStreamData.R  
- |     |--------mystopwords.txt  
- |  
- |-----Python Code  
- |     |--------ReadMeForPython.docx  
- |     |--------fetch_google.py  
- |     |--------fetch_yelp.py  
- |     |--------top 100 populated cities in US.txt  
+&ensp;|&ensp;&ensp;&ensp;&ensp;|--------Sample Data  
+&ensp;|&ensp;&ensp;&ensp;&ensp;|--------ATT_LDA.R  
+&ensp;|&ensp;&ensp;&ensp;&ensp;|--------Corr.R  
+&ensp;|&ensp;&ensp;&ensp;&ensp;|--------Preprocess.R  
+&ensp;|&ensp;&ensp;&ensp;&ensp;|--------Sentiment.R  
+&ensp;|&ensp;&ensp;&ensp;&ensp;|--------TwitterPublicData.R  
+&ensp;|&ensp;&ensp;&ensp;&ensp;|--------TwitterStreamData.R  
+&ensp;|&ensp;&ensp;&ensp;&ensp;|--------mystopwords.txt  
+&ensp;|  
+&ensp;|-----Python Code  
+&ensp;|&ensp;&ensp;&ensp;&ensp;|--------ReadMeForPython.docx  
+&ensp;|&ensp;&ensp;&ensp;&ensp;|--------fetch_google.py  
+&ensp;|&ensp;&ensp;&ensp;&ensp;|--------fetch_yelp.py  
+&ensp;|&ensp;&ensp;&ensp;&ensp;|--------top 100 populated cities in US.txt  
 
 ### Code Notes : 
 1) ATT_LDA.R           : extract customer service topics by LDA method.  
